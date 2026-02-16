@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JMU Elite Cleaning Co.</title>
+<style>
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #f8f8f8;
+    color: #111;
+}
+.hero {
+    text-align: center;
+    padding: 100px 20px 80px;
+    background: #111;
+    color: white;
+}
+.hero h1 {
+    font-size: 44px;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+.hero p {
+    font-size: 18px;
+    color: #c6a75e;
+}
+.section {
+    padding: 70px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+.section h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 14px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+.card h3 {
+    margin: 0 0 8px 0;
+}
+ul {
+    padding-left: 20px;
+    line-height: 1.6;
+}
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.form-container {
+    background: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.07);
+}
+form {
+    display: grid;
+    gap: 18px;
+}
+input, select, textarea {
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 15px;
+    width: 100%;
+}
+button {
+    padding: 16px;
+    background: #111;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover {
+    background: #c6a75e;
+    color: black;
+}
+.footer {
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 14px;
+    color: #777;
+}
+</style>
+</head>
+<body>
+
+<div class="hero">
+    <h1>JMU Elite Cleaning Co.</h1>
+    <p>Luxury Clean. Student Prices. Fast Turnaround.</p>
+</div>
+
+<div class="section">
+    <h2>Services</h2>
+    <div class="pricing-grid">
+        <div class="card">
+            <h3>2-Person Dorm — $30</h3>
+        </div>
+        <div class="card">
+            <h3>Village Dorm — $40</h3>
+        </div>
+        <div class="card">
+            <h3>Apartment/House — $40</h3>
+            <p>Kitchen, 1 Bath, Living Room</p>
+        </div>
+        <div class="card">
+            <h3>Move-Out Deep Clean</h3>
+            <p>Dorm — $100<br>Apartment/House — $200</p>
+        </div>
+    </div>
+
+    <h3 style="margin-top:40px;">All Cleanings Include:</h3>
+    <ul>
+        <li>Trash removal & can cleaning</li>
+        <li>Dishes washed</li>
+        <li>Sweeping & mopping</li>
+        <li>Surface disinfecting</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>Book Your Cleaning</h2>
+    <div class="form-container">
+        <form action="https://formsubmit.co/5716296745@txt.att.net" method="POST">
+            <input type="text" name="Name" placeholder="Full Name" required>
+            <input type="tel" name="Phone" placeholder="Phone Number" required>
+            <select name="Service" required>
+                <option value="">Select Service</option>
+                <option>2-Person Dorm</option>
+                <option>Village Dorm</option>
+                <option>Apartment/House Cleaning</option>
+                <option>Move-Out Deep Clean</option>
+            </select>
+            <input type="date" name="Preferred Date" required>
+            <textarea name="Notes" rows="4" placeholder="Anything we should know?"></textarea>
+            <button type="submit">Request Booking</button>
+        </form>
+    </div>
+</div>
+
+<div class="footer">
+    Call or Text Directly: 571‑629‑6745
+</div>
+
+</body>
+</html>
